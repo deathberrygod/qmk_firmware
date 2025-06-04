@@ -24,3 +24,17 @@
 #   define WS2812_DMA_CHANNEL 2
 #   define WS2812_DMAMUX_ID STM32_DMAMUX1_TIM3_UP
 #endif
+
+// For matters of per layer RGB
+
+#define SPLIT_LAYER_STATE_ENABLE
+
+// Configuration for Tri Layer, setting the layers taken into account
+
+#define TRI_LAYER_LOWER_LAYER 1
+#define TRI_LAYER_UPPER_LAYER 2
+#define TRI_LAYER_ADJUST_LAYER 3
+
+// N Key Rollover enabled
+
+#define NKRO_DEFAULT_ON true
