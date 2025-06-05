@@ -38,3 +38,7 @@
 // N Key Rollover enabled
 
 #define NKRO_DEFAULT_ON true
+
+// Constant speed for mouse and wheel
+
+#define MK_3_SPEED
