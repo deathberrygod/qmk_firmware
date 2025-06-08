@@ -31,9 +31,9 @@
 
 // Configuration for Tri Layer, setting the layers taken into account
 
-#define TRI_LAYER_LOWER_LAYER 1
-#define TRI_LAYER_UPPER_LAYER 2
-#define TRI_LAYER_ADJUST_LAYER 3
+#define TRI_LAYER_LOWER_LAYER 2
+#define TRI_LAYER_UPPER_LAYER 3
+#define TRI_LAYER_ADJUST_LAYER 4
 
 // N Key Rollover enabled
 
@@ -42,3 +42,9 @@
 // Constant speed for mouse and wheel
 
 #define MK_3_SPEED
+
+// Definitions for mod tap
+
+#define PERMISSIVE_HOLD
+#define TAPPING_TERM 200
+#define QUICK_TAP_TERM 100
