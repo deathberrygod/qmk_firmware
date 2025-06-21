@@ -45,7 +45,7 @@
 
 // Definitions for mod tap
 
-#define PERMISSIVE_HOLD
-#define TAPPING_TERM 160
-#define QUICK_TAP_TERM 100
-#define FLOW_TAP_TERM 150
+// #define PERMISSIVE_HOLD
+#define TAPPING_TERM 130
+#define QUICK_TAP_TERM 90
+#define FLOW_TAP_TERM 130
